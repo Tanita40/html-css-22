@@ -1,0 +1,42 @@
+.contact-nav {
+   display: flex;
+   margin-left: auto;
+   & .item {
+      margin-top: 32px;
+      margin-bottom: 32px;
+   }
+   & .item + .item {
+      padding-left: 50px;
+   }
+}
+.contact-nav .link {
+   display: inline-block;
+   padding-top: 32px;
+   padding-bottom: 32px;
+
+   color: $title-text-color;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   text-decoration: none;
+   &:hover, &:focus {
+      color: $accent-color;
+   }
+   &.current{
+      color: $accent-color;
+   }
+}
+.contact-nav .item:nth-child(1):before {
+   background-image: url(../photo/Icon/envelope\ \(hover\).svg);
+   height: 12px;
+   width: 16px;
+   fill: $primary-text-color;
+}
+
+.contact-nav .item:nth-child(2):before {
+   background-image: url(../photo/Icon/smartphone\ \(1\).svg);
+   width: 10px;
+   height: 16px;
+   fill: $primary-text-color;
+   
+}

@@ -1,0 +1,36 @@
+.container {
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-bottom: 94px;
+   // width: 1200px;
+
+   @media screen and (min-width: 480px) {
+      width: 480px;
+   }
+   @media screen and (min-width: 768px){
+      width:768px;
+   }
+   @media screen and (min-width: 1600px) {
+      width: 600px;
+   }
+}
+.list .title {
+   color: $title-text-color;
+   font-family: inherit;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 1.08;
+
+}
+.list .text {
+   margin-top: 0;
+   margin-bottom: 94px;
+
+   font-family: inherit;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.87;
+   color: $primary-text-color;
+}

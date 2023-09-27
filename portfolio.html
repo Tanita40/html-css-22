@@ -2,15 +2,21 @@
 <html lang="en">
 <head>
    <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
-   <link rel="stylesheet" href="./css/styles.css">
-   <link rel="stylesheet" href="./css/main.min.css">
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <main>
    <body class="page">
@@ -239,13 +245,13 @@
                Web <span class="logo-footer">Studio</span>
             </a>
             
-            <address>
+            
                <ul class="list adress">
                   <li class="list-contact">м. Київ, пр-т Лесі Українки, 26</li>
                   <li class="list-contact "><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
                   <li class="list-contact "><a href="tel:+380961111111" class="link">+380961111111</a></li>
                </ul>                             
-            </address>
+            
             </div>
             <div class="employee">
                <h3 class="title-employee">Приєднуйтесь</h3>
@@ -280,11 +286,21 @@
                         </a>
                         </li>
                   </ul>
-                  
+               </div>                  
             </div>
+             <div class="subscription">
+                     <form action="form-subscription">
+                        <label class="subscription-label"for="mail">Підпишіться на розсилку</label>
+                        <div class="flex subscription">
+                        <input class="subscription-input" type="email" name="mail" id="mail">
+                        <button class="button subscription">Відправити</button>
+                        </div>
+                     </form>
+                  </div>     
          </div>
       </div>
    </footer>
+
 </body>
 
 

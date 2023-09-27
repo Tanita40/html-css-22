@@ -1,0 +1,88 @@
+.flex {
+   display: flex;
+   flex-wrap: wrap;
+}
+.magazine {
+   align-items: center;
+   display: inline-flex;
+
+}
+.element {
+
+   width: calc((100% - 90px) / 4);
+   margin-right: 30px;
+
+   // border-radius: 0px 0px 4px 4px;
+   background: $primary-white-color;
+   // box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);  
+}
+.element:nth-child(4n) {
+   margin-right: 0;
+}
+.img-element {
+
+   width: calc((100% - 60px) / 3);
+   margin-right: 30px;
+}
+.img-element:nth-child(3n) {
+   margin-right: 0;
+}
+/*Розташування іконок (img):2 варіант*/
+/*.img.element   {
+   width: 370;
+   background-color: teal;
+   margin-right: 30px;
+   margin-bottom: 30px;
+
+.img.element:nth-last-child(-n+3) {
+   margin-bottom: 0;
+
+}*/
+.advantages-main .title {
+   padding-top: 30px;
+   margin-top: 0;
+   margin-bottom: 10px;
+
+   color: $title-text-color;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.17;
+   text-align: center;
+}
+// .list .title {
+//    color: var(--title-text-color);
+//    font-family: inherit;
+//    font-weight: 700;
+//    font-size: 18px;
+//    line-height: 1.08;
+
+// }
+
+.text-advantages {
+   margin-top: 0;
+   // margin-bottom: 94px;
+   font-family: inherit;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.7;
+   color: $primary-text-color;
+}
+.main-magazine {
+   width: 270px;
+   height: 120px;
+   background-color: $first-bg-color;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   object-position: center;
+   background-position: 50% 50%;
+}
+.title-flex{
+   margin-top: 0;
+   color: $title-text-color;
+   text-align: center;
+   font-family: Roboto;
+   font-size: 36px;
+   font-weight: 700;
+}

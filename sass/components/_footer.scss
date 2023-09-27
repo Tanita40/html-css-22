@@ -1,0 +1,60 @@
+.overlay {
+   background-color: $footer-bg-color;
+}
+.footer-overlay {
+   height: 252px;
+   max-width: 1600px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 0;
+   background-color: $footer-bg-color;
+  
+}
+.container_footer {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.logo.page-footer {
+   margin-top: 0;
+}
+
+.logo-footer {
+
+   color: $primary-white-color;
+}
+.address {
+   
+   margin-left: 215px;
+   display: block;
+}
+.list.address {
+   margin-top: 20px;
+   margin-bottom: 60px;
+   
+}
+.list-contact{
+   color: $primary-white-color;
+      font-family: Roboto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+}
+.list-contact .link {
+   display: inline-block;
+   color: rgba(255, 255, 255, 0.6);
+   text-decoration: none;
+}
+.employee {
+   margin-top: 72px;
+   margin-bottom: 100px;
+   margin-left: 70px;
+}
+
+.title-employee {
+   margin-left: 32px;
+   color: $primary-white-color;
+}
+
+

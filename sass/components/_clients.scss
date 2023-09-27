@@ -1,0 +1,47 @@
+.section-clients {
+   margin-top: 0px;
+   margin-bottom: 50px;
+   padding-top: 94px;
+   padding-bottom: 0px;
+
+   color: $title-text-color;
+   text-align: center;
+   font-family: inherit;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.08;
+}
+.clients-img {
+   width: calc((100% - 92px) / 6);
+   margin-right: 30px;
+}
+
+.clients-element {
+   width: calc((100% - 170px) / 6);
+   margin-right: 30px;
+   border: 1px solid #afb1b8;
+   border-radius: 4px;
+
+   padding: 16px 32px 16px 32px;
+   height: 92px;
+   display: flex;
+
+   &:last-child {
+      margin-right: 0;
+   }
+}
+.clients.card {
+   fill: #AFB1B8;
+
+   &:hover, &:focus {
+      color: $accent-color
+   }
+}
+.clients-cards:hover {
+   color: $accent-color;
+
+}
+.clients .title {
+   margin-top: 0;
+   margin-bottom: 50px;
+}

@@ -1,0 +1,68 @@
+.team-overlay {
+   height: 708px;
+   max-width: 1600px;
+   margin-left: auto;
+   margin-bottom: 0;
+   margin-top: 0;
+   margin-right: auto;
+   background-color: $team-bg-color;
+}
+.section-team .title {
+   margin-top: 0px;
+   margin-bottom: 50px;
+   padding-top: 94px;
+   padding-bottom: 0px;
+
+   color: $title-text-color;
+   text-align: center;
+   font-family: inherit;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.2;
+}
+.flex.team {
+   padding-top: 50px;
+   margin-bottom: 94px;
+}
+
+.section-team .title {
+   margin-top: 0px;
+   margin-bottom: 50px;
+   padding-top: 94px;
+   padding-bottom: 0px;
+
+   color: $title-text-color;
+   text-align: center;
+   font-family: inherit;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.2;
+}
+.team-overlay {
+   height: 708px;
+   max-width: $max-width;
+   margin-left: auto;
+   margin-bottom: 0;
+   margin-top: 0;
+   margin-right: auto;
+   background-color: $first-bg-color;
+}
+.flex.team {
+   padding-top: 50px;
+   margin-bottom: 94px;
+}
+
+.team-cards {
+   text-align: center;
+}
+.team-title {
+   margin-top: 30;
+   margin-bottom: 10;
+
+   color: $title-text-color;
+}
+
+.team .text {
+   margin-top: 0;
+   margin-bottom: 0;
+}
